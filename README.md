@@ -5,6 +5,10 @@ One image resource for multiple colors
 
 Simple one-class library for applying different colors to one image resource.
 
+
+![screenshot](art/screenshot.png)
+
+
 ```xml
 <ru.noties.iconview.IconView
     android:id="@+id/icon_view"
