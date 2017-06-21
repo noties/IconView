@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
+
+    <ru.noties.iconview.IconView
+        android:id="@+id/icon_view"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:padding="8dip"
+        android:text="@string/app_name"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+</LinearLayout>
